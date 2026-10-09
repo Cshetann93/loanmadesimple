@@ -1,7 +1,7 @@
 "use client";
 import { useMemo, useState } from "react";
 import Link from "next/link";
-import { ArrowUpRight, Search, ShieldCheck } from "lucide-react";
+import { ArrowUpRight, Search } from "lucide-react";
 const listings = [
   { name: "Listing details being verified", type: "Personal loan app", lender: "Lender partner to be verified", amount: "Not published", tenure: "Not published", status: "Not yet verified", description: "This directory will publish a profile only after the actual lending entity, official app link and key loan terms have been checked." }
 ];
