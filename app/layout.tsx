@@ -29,7 +29,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
       <div className="footer-brand"><Link className="brand brand-footer" href="/"><span className="brand-mark">L<span>·</span></span><span>loan<span className="brand-light">made</span>simple<small>.in</small></span></Link><p>Clearer information for more informed borrowing decisions.</p></div>
       <div><h3>Explore</h3><Link href="/loan-apps">Loan app directory</Link><Link href="/short-term-loans">Short-term loans</Link><Link href="/loan-calculator">Loan calculator</Link></div>
       <div><h3>About</h3><Link href="/about">About us</Link><Link href="/how-we-review">Our review process</Link><Link href="/contact">Contact</Link></div>
-      <div><h3>Policies</h3><Link href="/disclaimer">Disclaimer</Link><Link href="/privacy-policy">Privacy policy</Link></div>
+      <div><h3>Policies</h3><Link href="/disclaimer">Disclaimer</Link><Link href="/privacy-policy">Privacy policy</Link><Link href="/terms-and-conditions">Terms and conditions</Link></div>
     </div><div className="footer-bottom"><span>© {new Date().getFullYear()} LoanMadeSimple.in</span><span>We are an information directory, not a lender.</span></div></footer>
   </body></html>;
 }
