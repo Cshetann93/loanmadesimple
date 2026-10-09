@@ -1,6 +1,5 @@
 "use client";
 import { useMemo, useState } from "react";
-import type { Metadata } from "next";
 import { Calculator } from "lucide-react";
 export default function LoanCalculator(){
  const [amount,setAmount]=useState(50000); const [rate,setRate]=useState(18); const [months,setMonths]=useState(12);
