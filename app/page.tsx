@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import { ArrowRight, ArrowUpRight, BadgeCheck, Calculator, CheckCircle2, ClipboardCheck, FileSearch, HandCoins, Landmark, Search, ShieldCheck, Smartphone, WalletCards } from "lucide-react";
+import { ArrowRight, ArrowUpRight, BadgeCheck, Calculator, CheckCircle2, ClipboardCheck, FileSearch, HandCoins, ShieldCheck, Smartphone, WalletCards } from "lucide-react";
 
 const categories = [
   { icon: Smartphone, title: "Loan app directory", desc: "Explore digital lending apps and find the lender behind each platform.", href: "/loan-apps", link: "Browse loan apps" },
