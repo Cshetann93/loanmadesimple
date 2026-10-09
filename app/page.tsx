@@ -4,7 +4,7 @@ import { ArrowRight, ArrowUpRight, BadgeCheck, Calculator, CheckCircle2, Clipboa
 
 const categories = [
   { icon: Smartphone, title: "Loan app directory", desc: "Explore digital lending apps and find the lender behind each platform.", href: "/loan-apps", link: "Browse loan apps" },
-  { icon: HandCoins, title: "Short-term borrowing", desc: "Understand shorter repayment options, costs and the risks to check first.", href: "/short-term-loans", link: "Explore short-term loans" },
+  { icon: HandCoins, title: "Short-term borrowing", desc: "Understand shorter repayment options, costs and the risks to check first.", href: "/payday-loans.html", link: "Browse short-term loan directory" },
   { icon: Calculator, title: "Loan calculator", desc: "Estimate monthly payments and total interest before making a decision.", href: "/loan-calculator", link: "Calculate repayments" },
 ];
 export default function Home() {
